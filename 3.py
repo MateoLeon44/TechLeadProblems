@@ -1,3 +1,4 @@
+#Check if a String is palindrome.
 class Solution:
     def checkPalindrome(self, s):
         length = len(s)
@@ -12,7 +13,6 @@ class Solution:
         if str(arr) == s:
             aRetornar = True
         return aRetornar
-
 
 
 nuevo =  "gbgbgbg"
