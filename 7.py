@@ -5,6 +5,7 @@ class Solution:
             res ^= num # res = res^num
             print(res)
         return res
+    ''' No O(1) space with my solution'''
     def singleNumberMySolution(self, nums):
         dict = {}
         for num in nums:
