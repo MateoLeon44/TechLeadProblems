@@ -3,6 +3,7 @@ def two_sum(list, k):
     for i in list:
         complement = k -i
         hash[complement] = i
+        print(hash)
     for i in list:
         if i in hash.keys():
             return True
